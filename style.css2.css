@@ -1,0 +1,106 @@
+body{
+    background-image:url(background\ creammm.jpg) ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(254, 254, 194);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: rgb(249, 249, 170);
+}
+.navbar li{
+    float: left;
+    color: #000;
+}
+footer {  
+    color: #080808;
+    text-align: left;
+    padding: 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+.main-contain{
+    text-align: center;
+  }
+  
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card{
+    background: rgb(192, 149, 94);
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
+  .card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .fac1{
+    background-image: url(Dewan\ Seminar.jpg);
+  }
+  
+  .fac2{
+    background-image: url(Reference\ Desk.jpg);
+  }
+  
+  .fac3{
+    background-image: url(PC\ Desk.jpg);
+  }
+  
+  .fac4{
+    background-image: url(Library\ Desk.jpg);
+  }
+  
+  .fac5{
+    background-image: url(Bookcase.jpg);
+  }
+  
+  .fac6{
+    background-image: url(RFID\ in\ library.jpg);
+  }
+  
+  .card:hover{
+    background-color: rgb(116, 73, 18);
+    color: rgb(194, 176, 136);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+  }
+
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }

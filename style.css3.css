@@ -1,0 +1,188 @@
+body{
+    background-image:url(background\ creammm.jpg) ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(254, 254, 194);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: rgb(249, 249, 170);
+}
+.navbar li{
+    float: left;
+    color: #000;
+}
+/* General Styles */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Sidebar */
+.w3-sidebar {
+    z-index: 3;
+    width: 300px;
+    background-color: #fff;
+}
+
+.w3-sidebar .w3-container img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.w3-sidebar .w3-container h4 {
+    margin-top: 10px;
+}
+
+.w3-sidebar .w3-bar-block .w3-bar-item {
+    padding: 16px;
+}
+
+.w3-sidebar .w3-panel .fa {
+    margin-right: 5px;
+}
+
+/* Overlay */
+.w3-overlay {
+    cursor: pointer;
+}
+
+/* Main Content */
+.w3-main {
+    margin-left: 300px;
+    padding: 16px;
+}
+
+/* Header */
+header {
+    margin-bottom: 16px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header .w3-section {
+    margin-bottom: 16px;
+}
+
+header .w3-section button {
+    margin-right: 5px;
+}
+
+/* Photo Grids */
+.w3-row-padding {
+    margin-bottom: 16px;
+}
+
+.w3-container {
+    padding: 16px;
+}
+
+.w3-container img {
+    width: 100%;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.w3-container img:hover {
+    opacity: 0.7;
+}
+
+/* Contact Section */
+.w3-container.w3-padding-large {
+    background-color: #757575;
+    color: #fff;
+}
+
+.w3-container.w3-padding-large h4 {
+    margin-bottom: 24px;
+}
+
+.w3-container.w3-padding-large .w3-third {
+    padding: 16px;
+}
+
+.w3-container.w3-padding-large .w3-third p {
+    margin: 8px 0;
+}
+
+.w3-container.w3-padding-large form {
+    margin-top: 24px;
+}
+
+.w3-container.w3-padding-large form .w3-section {
+    margin-bottom: 16px;
+}
+
+.w3-container.w3-padding-large form .w3-input {
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.w3-container.w3-padding-large form button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.w3-container.w3-padding-large form button:hover {
+    background-color: #555;
+}
+
+/* Responsive */
+@media (max-width: 1600px) {
+    .w3-main {
+        margin-left: 0;
+    }
+    
+    .w3-sidebar {
+        width: 100%;
+        display: none;
+    }
+    
+    .w3-sidebar.w3-collapse {
+        display: block;
+    }
+    
+    .w3-sidebar.w3-show {
+        display: block;
+    }
+    
+    .w3-overlay.w3-hide-large {
+        display: block;
+    }
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+  }
